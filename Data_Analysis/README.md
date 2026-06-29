@@ -1,6 +1,6 @@
 # 📊 Data Analysis (데이터 분석)
 
-UC Berkeley의 *Foundations of Data Science(**Data 8**)* 커리큘럼을 기반으로, **표 데이터 처리 → 시각화 → 시뮬레이션·확률 → 추론 통계(가설검정·신뢰구간) → 회귀**까지 데이터 과학의 전 과정을 Python으로 실습한 과목입니다. 총 23개의 랩 노트북을 직접 작성·실행했습니다.
+UC Berkeley의 *Foundations of Data Science(**Data 8**)* 커리큘럼을 기반으로, **표 데이터 처리 → 시각화 → 시뮬레이션·확률 → 추론 통계(가설검정·신뢰구간) → 회귀**까지 데이터 과학의 전 과정을 Python으로 실습한 과목입니다. 총 22개의 랩 노트북(lab03–05, lab07–25)을 직접 작성·실행했으며, lab01·02는 입문용 문서(PDF)로 포함했습니다.
 
 > **기술 스택:** Python · `datascience`(Berkeley Tables) · NumPy · Matplotlib · SciPy · 확률·통계
 

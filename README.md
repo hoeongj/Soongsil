@@ -82,7 +82,7 @@ Soongsil/
 ├── Artificial_Intelligence/       # PyTorch (CNN, Transformer, ViT)
 ├── Computer_Architecture/         # RISC-V 디스어셈블러 + 시뮬레이터
 ├── Computer_Networks/             # Java TCP/UDP 소켓
-├── Data_Analysis/                 # Berkeley Data 8 랩 (23개)
+├── Data_Analysis/                 # Berkeley Data 8 랩 (22개)
 ├── Data_Structures/               # 수식 계산기, 정렬, 동적 배열
 ├── File_Processing/               # 저수준 I/O, FTL, 가변길이 레코드
 ├── Linux_System_Programming/      # 채점 시스템, 중복파일 정리 도구
