@@ -13,3 +13,7 @@ __pycache__/
 *.class
 a.out
 *.exe
+
+# Large model weights (>100MB GitHub limit) — kept locally, available on request
+finetuned_bert.pth
+*.bin

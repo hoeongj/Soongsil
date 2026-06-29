@@ -18,7 +18,7 @@
 | **Linux System Programming** | 자동 채점 시스템, MD5 기반 중복파일 탐색·정리 도구(`fdupes` 류, ~2,300줄) | C, POSIX, pthread, OpenSSL, BFS | [📂](./Linux_System_Programming) |
 | **Programming Languages** | 직접 만든 미니 언어의 **렉서 + 재귀하향 파서 + AST 트리워킹 인터프리터** | Python, C++ | [📂](./Programming_Languages) |
 | **Computer Architecture** | **RISC-V 기계어 디스어셈블러 + 명령어 시뮬레이터** | C, RISC-V ISA | [📂](./Computer_Architecture) |
-| **Artificial Intelligence** | CNN·**Transformer(from scratch)**·**ViT** 구현 및 학습 | PyTorch | [📂](./Artificial_Intelligence) |
+| **Artificial Intelligence** | CNN(Inception)·**Transformer(from scratch)**·**ViT**·**BERT 파인튜닝** | PyTorch, HuggingFace | [📂](./Artificial_Intelligence) |
 | **Algorithm** | **이동 의미론(move semantics)** 기반 정렬 4종 (복사 비용 최소화) | C++ (STL, std::move) | [📂](./Algorithm) |
 | **Network Programming** | 소켓·**TLS**·**asyncio**·**ZeroMQ** 분산 처리·HTTP/Flask·웹 스크래핑 | Python | [📂](./Network_Programming) |
 | **File Processing** | 저수준 파일 I/O, **FTL(Flash Translation Layer)**, 가변길이 레코드 DB | C, POSIX syscalls | [📂](./File_Processing) |
@@ -48,10 +48,11 @@
 - 이어서 32개 레지스터 + PC를 갖는 CPU 모델 위에서 **fetch–decode–execute 루프**로 실제 실행하여 최종 레지스터 값을 출력. 즉치값 부호 확장, B-type 즉치값 재조합 등 ISA 디테일 구현.
 - 👉 [자세히 보기](./Computer_Architecture)
 
-### 4. 딥러닝: CNN · Transformer(from scratch) · ViT (Artificial Intelligence)
-- **CNN** 이미지 분류기를 PyTorch로 학습 → **테스트 정확도 82%** (10,000장).
-- **Transformer를 밑바닥부터 구현** (Positional Encoding, Multi-Head Attention 등) — 100 epoch 학습으로 loss 약 3.33까지 수렴.
+### 4. 딥러닝: CNN · Transformer · ViT · BERT 파인튜닝 (Artificial Intelligence)
+- **CNN** (CIFAR-10): **Inception 모듈**을 설계해 테스트 정확도 **50% → 83%** 로 개선.
+- **Transformer를 밑바닥부터 구현** (Positional Encoding, Multi-Head Attention 등) — 100 epoch 학습.
 - **Vision Transformer(ViT)** 구현 (Patch Embedding 등) → **테스트 정확도 85.06%**.
+- **최종 프로젝트 — BERT 파인튜닝** (IMDB 감성분석): Label Smoothing·Cosine Scheduler·시드 튜닝으로 **검증 정확도 94.20% → 94.56%**.
 - 👉 [자세히 보기](./Artificial_Intelligence)
 
 ### 5. 이동 의미론 기반 정렬 알고리즘 (Algorithm)
