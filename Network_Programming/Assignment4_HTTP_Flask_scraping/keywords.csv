@@ -1,0 +1,17 @@
+keyword,definition
+HTTP,HyperText Transfer Protocol - the foundation of data communication on the World Wide Web.
+Host,The HTTP Host header specifies the domain name of the server to which the request is being sent.
+Port,A port is a numerical identifier in networking used to direct traffic to a specific service on a host.
+Header,HTTP headers are key-value pairs sent between client and server to convey metadata about the request or response.
+Encryption,The process of encoding data so that only authorised parties can read it; used in HTTPS via TLS.
+GET,An HTTP method used to request a representation of a resource without modifying it.
+POST,An HTTP method used to submit data to a server, often causing a change in state or side effects.
+URL,Uniform Resource Locator - the address used to locate a resource on the internet.
+StatusCode,A three-digit number in an HTTP response indicating the result of the request (e.g. 200 OK or 404 Not Found).
+Caching,Storing copies of responses so that future requests can be served faster without contacting the origin server.
+ContentType,An HTTP header indicating the media type of the resource (e.g. text/html or application/json).
+Cookies,Small pieces of data stored on the client by the server to maintain state across HTTP requests.
+Session,A server-side mechanism that preserves state between multiple HTTP requests from the same client using a session ID.
+REST,Representational State Transfer - an architectural style for designing networked applications using stateless HTTP requests.
+JSON,JavaScript Object Notation - a lightweight text format for exchanging data between a server and a client.
+XML,eXtensible Markup Language - a markup language used to encode documents in a format that is both human-readable and machine-readable.
